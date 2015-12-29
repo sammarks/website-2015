@@ -1,0 +1,27 @@
+// Colors
+$color-background: #005DAA;
+$color-foreground: #fff;
+
+// Foundation Colors
+$body-background: $color-background;
+$body-font-color: $color-foreground;
+
+// Typography
+$global-font-size: 30px;
+$body-font-family: 'proxima-nova', 'proxima nova', 'Proxima Nova', sans-serif;
+$header-font-family: $body-font-family;
+$header-font-weight: bold;
+$header-sizes: (
+  small: (
+    'h1': 40,
+  ),
+  medium: (
+    'h1': 50
+  ),
+  large: (
+    'h1': 60
+  )
+);
+$header-margin-bottom: rem-calc(50);
+$paragraph-margin-bottom: rem-calc(40);
+$paragraph-lineheight: rem-calc(40);

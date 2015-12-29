@@ -1,0 +1,8 @@
+@import 'foundation';
+@import 'global/variables';
+
+@include foundation-global-styles;
+@include foundation-typography;
+
+@import 'modules/typo';
+@import 'modules/layout';
