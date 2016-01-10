@@ -3,6 +3,5 @@ website:
     restart: always
     tags:
         - public
-    autoredeploy: true
     environment:
         VIRTUAL_HOST: sammarks.me,smarks.me,www.sammarks.me,www.smarks.me
